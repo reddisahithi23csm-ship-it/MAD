@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background_gradient">
+
+    <!-- Round Profile Image -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/profile"
+        android:scaleType="centerCrop"
+        android:background="@drawable/circle_background"
+        android:clipToOutline="true"/>
+
+    <!-- Student Details Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@drawable/card_background"
+        android:elevation="8dp">
+
+        <!-- Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#9E9E9E"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chandini tamarala"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2D2D2D"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Roll Number -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roll Number"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#9E9E9E"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A23126552241"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2D2D2D"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Course -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#9E9E9E"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CSM"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2D2D2D"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Email -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#9E9E9E"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chandinitamarala16@gmail.com"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2D2D2D"/>
+
+    </LinearLayout>
+
+    <!-- Gradient Button -->
+    <Button
+        android:id="@+id/showDetailsBtn"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:text="Explore Profile"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_gradient"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Footer -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile App Development Assignment"
+        android:textSize="14sp"
+        android:textColor="#EEEEEE"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>

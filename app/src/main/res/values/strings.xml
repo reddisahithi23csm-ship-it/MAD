@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudentProfileApp</string>
+    <string name="name">Name: T Chandini</string>
+    <string name="roll">Roll Number: A23126552241</string>
+    <string name="course">Course: CSM</string>
+    <string name="email">Email:chandinitamarala16@gmail.com</string>
+    <string name="button_text">View Full Details</string>
+</resources>
