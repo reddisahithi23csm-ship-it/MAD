@@ -41,7 +41,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="chandini tamarala"
+            android:text="Sai Poojitha Nuka"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#2D2D2D"
@@ -59,7 +59,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="A23126552241"
+            android:text="A23126552225"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#2D2D2D"
@@ -95,7 +95,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="chandinitamarala16@gmail.com"
+            android:text="poojithanuka36@gmail.com"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#2D2D2D"/>
